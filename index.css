@@ -1,0 +1,128 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.nav-bar {
+        animation: 15s fromtop ease-out;
+      list-style-type: none;
+	  margin: 0;
+	  box-shadow: 2px;
+      padding: 0;
+      overflow: hidden;
+      background-color: #e5e5e4;
+      position: fixed;
+      top: 0px;
+        z-index: 8;
+      width: 100%;
+	  shadow: 5px;
+	  box-shadow: 2px 2px 2px #999;
+      -moz-box-shadow: 2px 2px 2px #999;
+      -webkit-box-shadow: 2px 2px 2px #999;
+	  text-decoration: u;
+   }  
+    
+	.active .nav-bar li a {
+	  background-color:#1f9f58;}
+
+     .nav-bar li a {
+	 
+	  text-decoration: none;
+      display: block;
+      padding: 14px 26px;
+      background-color: #beige;
+      color: darkslategrey;
+    font-family: 'Merriweather Sans', sans-serif;	  
+font-size: 24px;
+    
+	}
+
+
+    li {
+      float: right;
+	}
+
+/*Change link color to #111(black) on hover*/
+
+    li a:hover{
+      background-color: beige;
+      color: black;
+        border-bottom-color: black;
+	  transition: background-color:0.3s;
+	}
+
+.sec1{
+    background-image: url(bg1.jpg);
+    background-attachment: fixed;
+    height:100%;
+    }
+
+.left{
+    font-family: 'Loves';
+    float:left;
+    width: 50%;
+    height: 100%;
+    animation: slideInL 1.5s;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.right{
+    font-weight: 500;
+    color:slategray;
+    padding-right: 50px;
+    text-align: right;
+    animation: fadeIn 1.5s;
+}
+
+.right h1{
+    font-family: 'Saira', sans-serif;
+}
+
+.right h2{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.buttons p{
+        font-family: 'Product Sans';
+    font-weight: 500;
+        white-space: nowrap;
+    background-color: crimson;
+    border-style: none;
+}
+
+#secdiv2{
+    width:100%;
+    height:150px;
+    background-color: black
+}
+
+.sec2{
+    background-image: url(bg2.png);
+    background-attachment: fixed;
+    height:100%
+}
+.buttonhome{
+    padding: 15px;
+    background-color: aliceblue;
+    font-size: 2em;
+    border-style: dashed;
+    
+}
+@font-face {
+    font-family: Loves;
+    src: url(loves/LOVES.ttf);
+}
+
+
+@keyframes slideInL{
+    from{width:0px;} to{width:50%;}
+}
+
+@keyframes fadeIn{
+    from{opacity:0;} to{opacity:100;}
+}
+@keyframes Rotation 
+0%{transform: rotate(0deg);}100% {transform: rotate(360deg);}
