@@ -14,3 +14,12 @@
                 }
             });
         });
+
+
+//download function
+x = 56
+document.getElementById("dwnld").innerHTML = x;
+
+function dwnldbutton(){
+    document.getElementById("dwnld").innerHTML= x+1;
+}
