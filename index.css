@@ -160,6 +160,9 @@ h6{
     font-family: Loves;
     src: url(loves/LOVES.ttf);
 }
+.dwnld {
+	color: #fff
+}
 
 
 @keyframes slideInL{
