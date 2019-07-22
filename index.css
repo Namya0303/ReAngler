@@ -126,6 +126,11 @@ h6{
     
 }
 
+.sec3 button{
+	padding:14px 16px;
+	font-size: 26px;
+	border-radius: 25px;}
+
 .modal-body p{
     color:aliceblue;
 }
