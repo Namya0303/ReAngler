@@ -12,6 +12,8 @@ $(document).ready(function (){
         }, 1000);
     });
 });
+var vHeight = $(window).height(), vWidth = $(window).width(), cover = $('.full'), halfvh = vHeight/2, thirdvh = vHeight/3, halfvw = vWidth/2.5;
+cover.css({"min-height":vHeight,"max-width":vWidth,});
 //download function
 var display = document.getElementById("dwnld");
 var num = 56;
