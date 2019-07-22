@@ -1,21 +1,17 @@
-
-        //Smooth Scroll
-        $(function() {
-            $('a[href*=#]:not([href=#])').click(function() {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
-            });
-        });
-
-
+$(document).ready(function (){
+    $(".secdiv3").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#secdiv3").offset().top
+        }, 1000);
+    });
+});
+$(document).ready(function (){
+    $(".secdiv2").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#secdiv2").offset().top
+        }, 1000);
+    });
+});
 //download function
 var display = document.getElementById("dwnld");
 var num = 56;
