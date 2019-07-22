@@ -6,7 +6,12 @@ body{
 }
 
 .navbar li{
-	padding:14px 26px;}
+	padding:14px 26px;
+	list-style-type:none;
+	}
+
+.navbar{
+	width:100%}
 
 .sec1{
     margin-top: 0px;
