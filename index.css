@@ -13,6 +13,7 @@ body{
 .navbar{
 	border-radius:inherit;
 	width:100%;
+	animation: fromtop 1.5s;
 	}
 
 .sec1{
