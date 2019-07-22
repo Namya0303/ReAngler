@@ -118,6 +118,14 @@ h6{
     color:#b8daf8;
 }
 
+.sec3 h1{
+    font-family: 'Titillium Web', sans-serif;
+    color: aliceblue;
+    font-size: 55px;
+    font-weight:500;
+    
+}
+
 .modal-body p{
     color:aliceblue;
 }
