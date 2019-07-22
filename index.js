@@ -17,9 +17,9 @@
 
 
 //download function
-x = 56
-document.getElementById("dwnld").innerHTML = x;
-
+var display = document.getElementById("dwnld");
+var num = 56;
+display.innerHTML = num;
 function dwnldbutton(){
-    document.getElementById("dwnld").innerHTML= x+1;
+    display.innerHTML = num++;
 }
